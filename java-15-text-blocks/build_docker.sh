@@ -1,8 +1,8 @@
 #! /bin/bash
 
-TAG="javagroupjava1416:java-14-switch"
+TAG="javagroupjava1416:java-15-text-blocks"
 
-echo "Start building Java 14 switch image"
+echo "Start building Java 15 text blocks image"
 
 docker build --pull --rm -f "Dockerfile" -t ${TAG} .
 
